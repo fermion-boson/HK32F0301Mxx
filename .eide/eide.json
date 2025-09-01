@@ -1,0 +1,259 @@
+{
+  "name": "HK32F0301MXX",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "debug",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "peripheral",
+        "files": [
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_adc.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_awu.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_beep.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_crc.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_dbgmcu.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_exti.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_flash.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_gpio.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_i2c.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_iwdg.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_misc.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_pwr.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_rcc.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_spi.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_syscfg.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_tim.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_usart.c"
+          },
+          {
+            "path": "pack/Device/HK32F0301M_Driver/src/hk32f0301m_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "src",
+        "files": [
+          {
+            "path": "src/hk32f0301m_it.c"
+          },
+          {
+            "path": "src/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "system",
+        "files": [
+          {
+            "path": "pack/Device/CMSIS/HK32F0301M/Source/ARM/KEIL_Startup_hk32f0301m.s"
+          },
+          {
+            "path": "pack/Device/CMSIS/HK32F0301M/Source/IAR/IAR_Startup_hk32f0301m.s"
+          },
+          {
+            "path": "pack/Device/CMSIS/HK32F0301M/Source/system_hk32f0301m.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": ".pack/HKMicroChip/HK32F030xMxx_DFP.1.0.17",
+  "miscInfo": {
+    "uid": "4224c698a114f83a4137af5be826856d"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "<virtual_root>/system/KEIL_Startup_hk32f0301m.s"
+      ],
+      "toolchain": "IAR_ARM",
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "archExtensions": "",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "${ToolchainRoot}/config/linker/HSXP-HK/HK32F0301M.icf",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "pyOCD",
+      "uploadConfig": {
+        "bin": "",
+        "targetName": "hk32f0301mf4p7c",
+        "baseAddr": "0x08000000",
+        "speed": "4M",
+        "config": ".eide/debug.pyocd.yaml",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 40000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "src",
+          "pack/Device/CMSIS/CM0/Core",
+          "pack/Device/CMSIS/HK32F0301M/Include",
+          "pack/Device/Debug",
+          "pack/Device/HK32F0301M_Driver/inc"
+        ],
+        "libList": [],
+        "defineList": [
+          "HK32F0301MF4P6"
+        ]
+      },
+      "builderOptions": {
+        "GCC": {
+          "version": 5,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "$float-abi-type": "hard",
+            "output-debug-info": "enable",
+            "misc-control": "--specs=nosys.specs --specs=nano.specs"
+          },
+          "c/cpp-compiler": {
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "optimization": "level-debug",
+            "warnings": "all-warnings",
+            "one-elf-section-per-function": true,
+            "one-elf-section-per-data": true,
+            "C_FLAGS": "",
+            "CXX_FLAGS": ""
+          },
+          "asm-compiler": {
+            "ASM_FLAGS": ""
+          },
+          "linker": {
+            "$outputTaskExcludes": [
+              ".bin"
+            ],
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "LD_FLAGS": "",
+            "LIB_FLAGS": "-lm"
+          }
+        },
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": false,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "$outputTaskExcludes": [
+              ".bin"
+            ],
+            "output-format": "elf"
+          }
+        },
+        "IAR_ARM": {
+          "version": 1,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "endian-mode": "little",
+            "runtime-lib": "normal",
+            "printf-formatter": "auto",
+            "scanf-formatter": "auto",
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "no",
+            "destroy-cpp-static-object": true
+          },
+          "asm-compiler": {
+            "case-sensitive-user-symbols": true
+          },
+          "linker": {
+            "$outputTaskExcludes": [
+              ".bin"
+            ],
+            "output-format": "elf",
+            "auto-search-runtime-lib": true,
+            "perform-cpp-virtual-func-elimination": "enable",
+            "config-defines": []
+          }
+        }
+      }
+    }
+  },
+  "version": "3.6"
+}
