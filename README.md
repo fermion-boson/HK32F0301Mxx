@@ -1,0 +1,3 @@
+## HK32F0301MXXX模板
+
+此模板适用于VSCODE的EIDE，编译链使用IAR FOR ARM
