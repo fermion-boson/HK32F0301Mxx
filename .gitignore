@@ -11,5 +11,5 @@
 /out
 
 # eide template
-# *.ept
-# *.eide-template
+*.ept
+*.eide-template
