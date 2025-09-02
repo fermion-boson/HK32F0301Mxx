@@ -9,7 +9,14 @@
     "folders": [
       {
         "name": "debug",
-        "files": [],
+        "files": [
+          {
+            "path": "pack/Device/Debug/systick_delay.c"
+          },
+          {
+            "path": "pack/Device/Debug/usart.c"
+          }
+        ],
         "folders": []
       },
       {
@@ -130,9 +137,9 @@
         "bin": "",
         "targetName": "hk32f0301mf4p7c",
         "baseAddr": "0x08000000",
-        "speed": "4M",
+        "speed": "2M",
         "config": ".eide/debug.pyocd.yaml",
-        "otherCmds": ""
+        "otherCmds": "board_id: 71D1"
       },
       "uploadConfigMap": {
         "JLink": {
