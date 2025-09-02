@@ -1,23 +1,22 @@
-#define DEBUG_PRINTF_ENABLE  // Enable debug print
+#define DEBUG_PRINTF_ENABLE // Enable debug print
 #include "main.h"
 #include "hk32f0301mxxc.h"
 #include "hk32f0301mxxc_gpio.h"
 #include "systick_delay.h"
-#include "usart.h"
+#include "uart.h"
 
 static void ledGpioInit(void);
 static void ledGpioToggle(void);
 int main(void)
 /* Infinite loop */
 {
-	SysTick_Init();
-	USART_Configuration();
-	DEBUG_PRINTF("Debug USART Printf Example");
+    SysTick_Init();
+    UARTx_Init();
     ledGpioInit();
     while (1) {
         ledGpioToggle();
         SysTick_DelayMs(1000);
-		DEBUG_PRINTF("LED TOGGLE");
+        DEBUG_PRINTF("Hello, HK32F0301MXX");
     }
 }
 static void ledGpioInit(void)
@@ -30,7 +29,7 @@ static void ledGpioInit(void)
     m_gpio.GPIO_OType = GPIO_OType_PP;
     m_gpio.GPIO_Pin   = GPIO_Pin_7;
     m_gpio.GPIO_PuPd  = GPIO_PuPd_NOPULL;
-    m_gpio.GPIO_Speed = GPIO_Speed_Level_2;
+    m_gpio.GPIO_Speed = GPIO_Speed_Level_3;
     GPIO_Init(GPIOC, &m_gpio);
 }
 
@@ -40,20 +39,19 @@ static void ledGpioToggle(void)
 }
 #ifdef USE_FULL_ASSERT
 /**
-  * @brief  Reports the name of the source file and the source line number
-  *         where the assert_param error has occurred.
-  * @param  file: pointer to the source file name
-  * @param  line: assert_param error line source number
-  * @retval None
-  */
+ * @brief  Reports the name of the source file and the source line number
+ *         where the assert_param error has occurred.
+ * @param  file: pointer to the source file name
+ * @param  line: assert_param error line source number
+ * @retval None
+ */
 void assert_failed(char *file, uint32_t line)
 {
     /* User can add his own implementation to report the file name and line number,
        ex: DEBUG_PRINTF("Wrong parameters value: file %s on line %d\r\n", file, line) */
-    
+    // DEBUG_PRINTF("Wrong parameters value: file %s on line %d\r\n", file, line)
     /* Infinite loop */
-    while (1)
-    {
+    while (1) {
     }
 }
 #endif

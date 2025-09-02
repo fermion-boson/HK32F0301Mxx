@@ -9,7 +9,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "uart.h"
 #include "hk32f0301mxxc_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -129,6 +129,15 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /* USER CODE BEGIN 1 */
-
+// 串口接收中断服务程序，请自行修改
+void UART1_IRQHandler(void)
+{
+  uint16_t data = 0;
+	if(UART_GetITStatus(UART1, UART_IT_RXNE) == SET)
+	{
+		data = UART_ReceiveData(UART1);
+    UART_SendData(UART1, data);
+	}
+}
 /* USER CODE END 1 */
 /************************ (C) COPYRIGHT HKMicroChip *****END OF FILE****/
