@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2544093725</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</file>
+            <file>$PROJ_DIR$\..\src\iic.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</file>
+            <file>$PROJ_DIR$\..\src\main.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\CM0\Core\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_rcc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</file>
+            <file>$PROJ_DIR$\..\src\hk32f0301mxxc_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_wwdg.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_mipi.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_misc.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_beep.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\CM0\Core\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_beep.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_misc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HK32F0301MxxC_Demo.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_syscfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEIL_Startup_hk32f0301mxxc.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_tim.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_dbgmcu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_awut.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_tim.o</file>
+            <file>$PROJ_DIR$\..\src\flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Include\hk32f0301mxxc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_exti.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_it.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_crc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_beep.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_mipi.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\ARM\KEIL_Startup_hk32f0301mxxc.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_pwr.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_mipi.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_spi.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_flash.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_misc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\CM0\Core\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_pwr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_flash.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_rcc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_uart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_syscfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_mipi.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_crc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hk32f0301mxxc_conf.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_awut.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_crc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_dbgmcu.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_syscfg.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_pwr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_usart.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_crc.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_dbgmcu.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_beep.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_spi.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_wwdg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_flash.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_dbgmcu.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_awut.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_syscfg.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_awut.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Include\system_hk32f0301mxxc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\CM0\Core\core_cm0.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hk32f0301mxxc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_usart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\CM0\Core\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hk32f0301mxxc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_wwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_iwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\CM0\Core\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Include\system_hk32f0301mxxc.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Include\hk32f0301mxxc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_mipi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_spi.h</file>
+            <file>$PROJ_DIR$\..\inc\main.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_misc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_exti.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_wwdg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_mipi.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_iwdg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_tim.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_tim.pbi</file>
+            <file>$PROJ_DIR$\..\inc\iic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\HK32F0301MxxC_Demo.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic.o</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_uart.h</file>
+            <file>$PROJ_DIR$\..\inc\hk32f0301mxxc_it.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_rcc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_beep.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_awut.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_dbgmcu.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hk32f0301mxxc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_adc.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\HK32F0301MxxC_Demo.out</file>
+            <file>$TOOLKIT_DIR$\config\linker\HSXP-HK\FlashHK32F0301MxxC.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_syscfg.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_iwdg.h</file>
+            <file>$PROJ_DIR$\..\src\uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_wwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_it.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_usart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\inc\hk32f0301mxxc_spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hk32f0301mxxc_iwdg.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAR_Sartup_hk32f0301mxxc.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 205 187</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 106 129 167 91 92 134 135 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\iic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 135 60 91 134 106 129 167 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108 184</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 71 130 125 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135 92 60 91 134 106 129 167 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 178 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 134 91 92 135 106 129 167 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139 157 148 102 145 72 143 60 214 111 130 180 106 91 92 129 134 167 135 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 178 135 108 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125 212 157 165 160 139 9 147 41 94 178 60 184 134 57 72 71 170 175 155 108 102 145 214 111 106 91 92 130 129 143 180 167 148 135 168</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139 157 148 102 145 72 143 60 214 111 130 180 106 91 92 129 134 167 135 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 145 102 72 139 157 148 60 214 111 130 180 106 91 92 129 134 167 135 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 106 129 167 91 92 134 135 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108 60 71 57 175 134 147 72 170 155 160 139 212 9 157 41 125 94 165 178 92 102 145 214 111 106 91 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147 60 72 155 134 170 57 71 175 108 160 139 212 9 157 41 125 94 165 178 102 145 214 111 106 91 92 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 212 157 165 125 160 139 9 147 41 94 178 134 57 72 71 170 175 155 108 92 102 145 214 111 106 91 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 130 125 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 106 129 167 91 92 134 135 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 178 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147 60 72 155 134 170 57 71 175 108 160 139 212 9 157 41 125 94 165 178 102 145 214 111 106 91 92 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 125 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170 134 147 72 155 60 57 71 175 108 160 139 212 9 157 41 125 94 165 178 102 145 214 111 106 91 92 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 155 148 178 135 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148 157 139 102 145 72 143 60 214 111 130 180 106 91 92 129 134 167 135 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\hk32f0301mxxc_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168 190</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135 92 60 91 134 106 129 167 139 102 145 72 214 111 157 130 143 180 148 160 212 9 147 41 57 71 125 170 94 175 165 155 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167 160 139 9 147 41 60 212 157 129 134 91 92 135 102 145 72 214 111 106 130 143 180 148 155 57 71 125 170 94 175 165 178 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 139 212 72 157 214 111 106 145 147 41 9 160 134 57 91 102 92 71 130 125 129 170 143 94 175 180 165 167 155 148 178 135 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 57 175 71 108 134 147 72 170 155 160 139 212 9 157 41 125 94 165 178 102 145 214 111 106 91 92 130 129 143 180 167 148 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 162 88 144 122 72 119 118 138 154 212 35 157 41 91 37 47 10 102 87 214 111 106 85 42 89 124 196 59 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162 72 163 144 122 157 189 57 59 208 138 154 212 35 41 91 10 196 216 132 102 87 214 111 106 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_beep.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 162 154 212 72 157 214 111 106 87 147 41 35 138 144 57 91 102 10 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 154 35 147 41 91 162 212 157 138 144 57 72 33 102 87 214 111 106 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 102 87 163 162 154 72 214 111 189 106 59 208 138 144 212 35 122 41 57 91 10 196 216 132 85 119 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 208 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 154 157 89 162 72 214 85 102 87 42 124 106 119 37 88 47 118 138 144 212 35 122 41 57 91 10 59 196 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 189 124 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 106 72 47 162 119 88 118 154 102 87 214 111 157 85 42 89 124 138 144 212 35 122 41 57 91 10 59 196 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 162 30 212 72 157 214 111 106 116 169 8 41 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 142 132 33 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142 162 154 212 72 157 214 111 106 87 147 41 35 138 144 57 91 102 10 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212 157 138 154 35 147 41 91 10 162 144 57 72 142 102 87 214 111 106 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212 157 196 162 138 41 216 154 35 122 91 10 144 132 57 72 59 163 208 189 102 87 214 111 106 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_beep.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\ARM\KEIL_Startup_hk32f0301mxxc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 189 124 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 214 85 162 154 111 157 89 102 87 42 124 106 119 37 88 47 118 138 144 212 35 122 41 57 91 10 59 196 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\HK32F0301MxxC_Library\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_mipi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 163 162 144 122 157 189 138 154 212 35 41 57 59 208 10 102 87 214 111 106 91 196 216 132 88 119 85 37 42 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162 106 144 10 132 154 102 87 72 214 111 157 196 216 138 212 35 122 41 57 91 59 163 208 189 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\CMSIS\HK32F0301MxxC\Source\system_hk32f0301mxxc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 106 72 47 162 119 88 118 154 102 87 214 111 157 85 42 89 124 138 144 212 35 122 41 57 91 10 59 196 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 87 216 162 154 72 214 111 157 196 106 91 10 144 132 138 212 35 122 41 57 59 163 208 189 47 119 85 37 42 88 89 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 162 106 72 47 119 88 118 154 102 87 214 111 157 85 42 89 124 138 144 212 35 122 41 57 91 10 59 196 163 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 216 162 102 87 154 72 214 111 196 106 10 144 132 138 212 35 122 41 57 91 59 163 208 189 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 85 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144 91 154 35 122 10 132 162 138 212 157 41 196 216 57 72 59 163 208 189 102 87 214 111 106 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\CMSIS\HK32F0301MxxC\Source\IAR\IAR_Sartup_hk32f0301mxxc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 59 85 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144 122 157 189 72 163 162 57 59 208 138 154 212 35 41 91 10 196 216 132 102 87 214 111 106 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_mipi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 119 162 88 106 72 37 47 154 102 87 214 111 157 85 42 89 124 10 138 144 212 35 122 41 57 91 59 196 163 208 216 189 132 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 119 59 85 196 37 163 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 41 212 157 189 162 154 35 122 91 163 144 57 72 59 208 102 87 214 111 106 10 196 216 132 119 85 37 42 88 89 47 124 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\HK32F0301MxxC_Demo.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 206 99 197 117 49 177 90 193 202 211 198 32 176 158 123 133 54 61 27 219 188 171 201 78 44 195 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163 162 154 212 72 157 214 111 106 87 122 41 35 138 144 57 91 102 10 119 59 85 196 37 42 88 208 89 216 47 189 124 132 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162 85 72 214 154 111 157 102 87 89 106 42 124 10 138 144 212 35 122 41 57 91 119 37 88 47 118 163 59 196 208 216 189 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_gpio.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_syscfg.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_flash.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_iwdg.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_dbgmcu.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_misc.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_awut.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_i2c.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_tim.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_pwr.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_spi.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_exti.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_crc.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_rcc.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_adc.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_wwdg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_beep.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\Lib\HK32F0301MxxC_Lib\src\hk32f0301mxxc_usart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

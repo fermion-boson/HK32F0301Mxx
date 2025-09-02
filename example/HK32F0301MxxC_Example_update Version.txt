@@ -1,0 +1,21 @@
+/*
+* @File name: HK32F0301MxxC_Example_update Version
+* @Description: 本文件是用来描述HK32F0301MxxC系列芯片固件库的版本列表
+* @Author: HKMicroChip AE Team
+* @Vender：HK_MicroChip
+* @WebSite:http://www.hsxp-hk.com
+*/
+HK32F0301MxxC_Example_V1.0.4 2024-5-24
+1、增加对Flash擦除和编程时的参数调整。
+
+HK32F0301MxxC_Example_V1.0.3 2023-4-13
+1、修正库函数中iomux函数中笔误问题。
+
+HK32F0301MxxC_Example_V1.0.2 2023-3-11
+1、更新 库函数中TSSOP20 pin NRST->PA0, IOMUX 配置失效问题
+
+HK32F0301MxxC_Library_V1.0.1 2023-2-01
+1、初更新FLASH_OB_WRPConfig 函数
+
+HK32F0301MxxC_Example_V1.0.0 2022-10-27
+1、初始版本

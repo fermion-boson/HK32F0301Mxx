@@ -1,0 +1,10 @@
+/*
+* @File name: HK32F0301MxxC_Lib_update Version.txt
+* @Description: 本文件是用来描述HK32F0301MxxC系列芯片固件库的版本列表
+* @Author: HKMicroChip AE Team
+* @Vender：HK_MicroChip
+* @WebSite:http://www.hsxp-hk.com
+*/
+
+HK32F0301MxxC_Library_V0.0.1 2022-9-07
+1、初始版本

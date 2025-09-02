@@ -1,4 +1,6 @@
-#include "hk32f0301m.h" 
+#include "hk32f0301mxxc.h" 
+#include "hk32f0301mxxc_uart.h"
+#include "hk32f0301mxxc_rcc.h"
 #include "systick_delay.h"
 #include "usart.h"
 #include <stdarg.h>
@@ -9,18 +11,18 @@
 void USART1_IRQHandler(void)
 {
   uint8_t ucTemp;
-  if (USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+  if (UART_GetITStatus(UART1, UART_IT_RXNE) != RESET)
   {
-    ucTemp = USART_ReceiveData(USART1);
-    USART_SendData(USART1, ucTemp);
-    // Usart_printf(USART1, "收到数据rec:%c", ucTemp);
+    ucTemp = UART_ReceiveData(UART1);
+    UART_SendData(UART1, ucTemp);
+    // Usart_printf(UART1, "收到数据rec:%c", ucTemp);
   }
 }
 
 void USART_NVIC_Configuration(void)
 {
   NVIC_InitTypeDef NVIC_InitStructure;
-  NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannel = UART1_IRQn;
   // value between 0 and 3
   NVIC_InitStructure.NVIC_IRQChannelPriority = 1;
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
@@ -34,84 +36,84 @@ void USART_NVIC_Configuration(void)
 void USART_Configuration(void)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
-	USART_InitTypeDef USART_InitStructure;
+	UART_InitTypeDef UART_InitStructure;
 
 	// Enable GPIO and UART clock
 	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA | RCC_AHBPeriph_GPIOB, ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+	RCC_APBPeriph2ClockCmd(RCC_APBPeriph2_UART1, ENABLE);
   // AF config
 	GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_1);
 	GPIO_PinAFConfig(GPIOB, GPIO_PinSource4, GPIO_AF_1);
-	// PA3 As USART TX
+	// PA3 As UART TX
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
 	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
 	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
-  // PB4 As USART RX
+  // PB4 As UART RX
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 
-	USART_InitStructure.USART_BaudRate = DEBUG_USART_BAUDRATE;
+	UART_InitStructure.UART_BaudRate = DEBUG_USART_BAUDRATE;
 	// 8-bit
-	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+	UART_InitStructure.UART_WordLength = UART_WordLength_8b;
 	// 1 stop bit
-	USART_InitStructure.USART_StopBits = USART_StopBits_1;
+	UART_InitStructure.UART_StopBits = UART_StopBits_1;
 	// No parity
-	USART_InitStructure.USART_Parity = USART_Parity_No ;
+	UART_InitStructure.UART_Parity = UART_Parity_No ;
 	// No hardware flow control
-	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	// UART_InitStructure.UART_HardwareFlowControl = UART_HardwareFlowControl_None;
 	// Enable Tx and Rx
-	USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
-	USART_Init(USART1, &USART_InitStructure);
+	UART_InitStructure.UART_Mode = UART_Mode_Rx | UART_Mode_Tx;
+	UART_Init(UART1, &UART_InitStructure);
 	
 	// UART Interrupt
 	USART_NVIC_Configuration();
-	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);	
+	UART_ITConfig(UART1, UART_IT_RXNE, ENABLE);	
 	// Enable UART1
-	USART_Cmd(USART1, ENABLE);	    
+	UART_Cmd(UART1, ENABLE);	    
 }
 
-void Usart_SendByte(USART_TypeDef *pUSARTx, uint8_t ch)
+void Usart_SendByte(UART_TypeDef *pUARTx, uint8_t ch)
 {
-  /* Send one byte to USART */
-  USART_SendData(pUSARTx, ch);
+  /* Send one byte to UART */
+  UART_SendData(pUARTx, ch);
   /* Block till tx empty flag is set */
-  while (USART_GetFlagStatus(pUSARTx, USART_FLAG_TXE) == RESET);
+  while (UART_GetFlagStatus(pUARTx, UART_FLAG_TXE) == RESET);
 }
 
-void Usart_SendArray( USART_TypeDef * pUSARTx, uint8_t *array, uint16_t num)
+void Usart_SendArray( UART_TypeDef * pUARTx, uint8_t *array, uint16_t num)
 {
   uint8_t i;
 	for(i=0; i<num; i++)
   {
-	    Usart_SendByte(pUSARTx,array[i]);	
+	    Usart_SendByte(pUARTx,array[i]);	
   }
 	/* Block till transmission is completed */
-	while(USART_GetFlagStatus(pUSARTx,USART_FLAG_TC)==RESET);
+	while(UART_GetFlagStatus(pUARTx,UART_FLAG_TC)==RESET);
 }
 
-void Usart_SendString( USART_TypeDef * pUSARTx, char *str)
+void Usart_SendString( UART_TypeDef * pUARTx, char *str)
 {
   while (*str)
   {
-    Usart_SendByte( pUSARTx, *str++);
+    Usart_SendByte( pUARTx, *str++);
   }
   /* Block till transmission is completed */
-  while(USART_GetFlagStatus(pUSARTx,USART_FLAG_TC)==RESET);
+  while(UART_GetFlagStatus(pUARTx,UART_FLAG_TC)==RESET);
 }
 
-void Usart_SendHalfWord( USART_TypeDef * pUSARTx, uint16_t ch)
+void Usart_SendHalfWord( UART_TypeDef * pUARTx, uint16_t ch)
 {
-  USART_SendData(pUSARTx, ch >> 8);
-  while (USART_GetFlagStatus(pUSARTx, USART_FLAG_TXE) == RESET);
-  USART_SendData(pUSARTx, ch & 0xFF);
-  while (USART_GetFlagStatus(pUSARTx, USART_FLAG_TXE) == RESET);
+  UART_SendData(pUARTx, ch >> 8);
+  while (UART_GetFlagStatus(pUARTx, UART_FLAG_TXE) == RESET);
+  UART_SendData(pUARTx, ch & 0xFF);
+  while (UART_GetFlagStatus(pUARTx, UART_FLAG_TXE) == RESET);
 }
 
-void Usart_printf(USART_TypeDef *pUSARTx, char *format, ...) {
+void Usart_printf(UART_TypeDef *pUARTx, char *format, ...) {
     va_list args;
     va_start(args, format);
 
@@ -121,12 +123,12 @@ void Usart_printf(USART_TypeDef *pUSARTx, char *format, ...) {
 
     // 发送格式化后的字符串
     for (uint8_t i = 0; buffer[i] != '\0'; i++) {
-        Usart_SendByte(pUSARTx, buffer[i]);
+        Usart_SendByte(pUARTx, buffer[i]);
     }
 
 
     va_end(args);
         // 添加换行符
-    Usart_SendByte(pUSARTx, '\r');
-    Usart_SendByte(pUSARTx, '\n');
+    Usart_SendByte(pUARTx, '\r');
+    Usart_SendByte(pUARTx, '\n');
 }

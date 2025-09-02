@@ -1,7 +1,7 @@
 #ifndef __SYSTICK_H
 #define __SYSTICK_H
 
-#include "hk32f0301m.h"
+#include "hk32f0301mxxc.h"
 
 void SysTick_Init(void);
 void SysTick_DelayUs(uint32_t nus);

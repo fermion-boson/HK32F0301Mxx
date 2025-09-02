@@ -1,5 +1,5 @@
 #include "systick_delay.h"
-#include "hk32f0301m.h"
+#include "hk32f0301mxxc.h"
 
 static uint32_t fac_us = 0;
 static uint32_t fac_ms = 0;

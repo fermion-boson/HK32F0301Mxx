@@ -1,7 +1,7 @@
 #define DEBUG_PRINTF_ENABLE  // Enable debug print
 #include "main.h"
-#include "hk32f0301m.h"
-#include "hk32f0301m_gpio.h"
+#include "hk32f0301mxxc.h"
+#include "hk32f0301mxxc_gpio.h"
 #include "systick_delay.h"
 #include "usart.h"
 
@@ -38,18 +38,22 @@ static void ledGpioToggle(void)
 {
     GPIOC->ODR ^= GPIO_Pin_7;
 }
-
 #ifdef USE_FULL_ASSERT
 /**
- * @brief  Reports the name of the source file and the source line number
- *         where the assert_param error has occurred.
- * @param  file: pointer to the source file name
- * @param  line: assert_param error line source number
- * @retval None
- */
-void assert_failed(uint8_t *file, uint32_t line)
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(char *file, uint32_t line)
 {
     /* User can add his own implementation to report the file name and line number,
-       tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+       ex: DEBUG_PRINTF("Wrong parameters value: file %s on line %d\r\n", file, line) */
+    
+    /* Infinite loop */
+    while (1)
+    {
+    }
 }
-#endif /* USE_FULL_ASSERT */
+#endif
