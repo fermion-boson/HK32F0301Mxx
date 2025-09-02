@@ -1,20 +1,9 @@
-/**
- ******************************************************************************
- * @file           : main.c
- * @brief          : Main program body
- ******************************************************************************
- * @attention
- *
- */
-
-/* Includes ------------------------------------------------------------------*/
 #define DEBUG_PRINTF_ENABLE  // Enable debug print
 #include "main.h"
 #include "hk32f0301m.h"
 #include "hk32f0301m_gpio.h"
 #include "systick_delay.h"
 #include "usart.h"
-
 
 static void ledGpioInit(void);
 static void ledGpioToggle(void);
