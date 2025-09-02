@@ -15,6 +15,7 @@
 #include "systick_delay.h"
 #include "usart.h"
 
+
 static void ledGpioInit(void);
 static void ledGpioToggle(void);
 int main(void)
